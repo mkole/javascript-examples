@@ -98,7 +98,7 @@ let array3 = [
   898, 813, 828, 547, 567, 259, 1,
 ];
 
-t = performance.now();
+let t = performance.now();
 
 let tN0 = performance.now();
 bubbleSortN(array1);

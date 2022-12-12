@@ -1,6 +1,6 @@
 const number = {
     read() {
-        this.num = +prompt();
+        this.num = + (prompt() ?? 0);
         return this; // returning this at every functions allows us to chain the calls
     },
     add(value) {
